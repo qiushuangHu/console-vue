@@ -1,9 +1,8 @@
 {
-	"version": 2,
-	"routes": [
+	"rewrites": [
 		{
-			"src": "/api",
-			"dest": "https://show.cool-admin.com"
+			"source": "/api/",
+			"destination": "https://example.com/api/"
 		}
 	]
 }
