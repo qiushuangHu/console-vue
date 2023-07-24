@@ -4,5 +4,11 @@
 			"src": "/api/(.*)",
 			"dest": "https://show.cool-admin.com/api/$1"
 		}
+	],
+	"rewrites": [
+		{
+			"source": "/:path*",
+			"destination": "/index.html"
+		}
 	]
 }
