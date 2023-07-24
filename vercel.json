@@ -1,8 +1,8 @@
 {
-	"rewrites": [
+	"routes": [
 		{
-			"source": "/api/",
-			"destination": "https://example.com/api/"
+			"src": "/api/(.*)",
+			"dest": "https://show.cool-admin.com/api/$1"
 		}
 	]
 }
